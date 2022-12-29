@@ -1,0 +1,20 @@
+@import url("./variable.css");
+@import url("./reset.css");
+
+header {
+  height: 86px;
+}
+
+.movie-list-box {
+  margin: 0 auto 135px;
+  background-color: var(--default-background-gray);
+  max-width: 1060px;
+  height: 1170px;
+  border-radius: 15px;
+  border: 2px solid var(--border-gray);
+}
+
+footer {
+  background-color: var(--default-background-gray);
+  height: 213px;
+}
