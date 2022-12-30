@@ -4,14 +4,250 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/css/main.css" />
     <title>Document</title>
   </head>
   <body>
     <header></header>
     <section>
-      <div class="movie-list-box">testgdasgsadgsadggsgdasgd</div>
+      <div class="movie-list-box">
+        <div class="movie-list-box-header">
+          <h1 class="movie-list-title">정글 시네마 영화 목록</h1>
+          <div class="divider"></div>
+          <ul class="movie-list-classify">
+            <li class="movie-list-classify-item active">
+              <button>현재상영영화</button>
+            </li>
+            <li class="movie-list-classify-item">
+              <button>개봉예정영화</button>
+            </li>
+            <li class="movie-list-classify-item">
+              <button>박스오피스</button>
+            </li>
+          </ul>
+        </div>
+        <div class="movie-card-list-wrapper">
+          <ul class="movie-card-list">
+            <li class="movie-card-item">
+              <div class="movie-card-item-content">
+                <figure>
+                  <img src="./src/img/포스터 이미지 1.jpeg" />
+                </figure>
+                <h3 class="movie-card-name">위니브 월드 : 새로운 시대</h3>
+                <div class="movie-card-info">
+                  <span class="info-label"><b>개요</b> 판타지</span>
+                  <span class="info-label"
+                    ><b>평점</b> <img src="./src/icon/Star 1.svg" /> 9.05</span
+                  >
+                  <br />
+                  <span class="info-label"><b>개봉</b> 2021.03.27</span>
+                  <br />
+                  <span class="info-label"
+                    ><b>출연</b> 라이캣, 소울곰, 개리씨</span
+                  >
+                </div>
+              </div>
+              <div class="movie-card-footer">
+                <button>예매하기</button>
+                <button><img src="./src/icon/play-circle.svg" />예고편</button>
+              </div>
+            </li>
+            <li class="movie-card-item">
+              <div class="movie-card-item-content">
+                <figure>
+                  <img src="./src/img/포스터 이미지 2.jpeg" />
+                </figure>
+                <h3 class="movie-card-name">
+                  눈떠보니 코딩테스트 전날 with: JAVA
+                </h3>
+                <div class="movie-card-info">
+                  <span class="info-label"><b>개요</b> 스릴러</span>
+                  <span class="info-label"
+                    ><b>평점</b> <img src="./src/icon/Star 1.svg" /> 8.25</span
+                  >
+                  <br />
+                  <span class="info-label"><b>개봉</b> 2021.04.01</span>
+                  <br />
+                  <span class="info-label"
+                    ><b>출연</b> 자바독, 개리씨, 빙키</span
+                  >
+                </div>
+              </div>
+              <div class="movie-card-footer">
+                <button>예매하기</button>
+                <button><img src="./src/icon/play-circle.svg" />예고편</button>
+              </div>
+            </li>
+            <li class="movie-card-item">
+              <div class="movie-card-item-content">
+                <figure>
+                  <img src="./src/img/포스터 이미지 3.jpeg" />
+                </figure>
+                <h3 class="movie-card-name">파이썬 부트캠프</h3>
+                <div class="movie-card-info">
+                  <span class="info-label"><b>개요</b> 드라마</span>
+                  <span class="info-label"
+                    ><b>평점</b> <img src="./src/icon/Star 1.svg" /> 8.77</span
+                  >
+                  <br />
+                  <span class="info-label"><b>개봉</b> 2021.04.12</span>
+                  <br />
+                  <span class="info-label"><b>출연</b> 캣, 파이, 썬, 뮤라</span>
+                </div>
+              </div>
+              <div class="movie-card-footer">
+                <button>예매하기</button>
+                <button><img src="./src/icon/play-circle.svg" />예고편</button>
+              </div>
+            </li>
+            <li class="movie-card-item">
+              <div class="movie-card-item-content">
+                <figure>
+                  <img src="./src/img/포스터 이미지 4.jpeg" />
+                </figure>
+                <h3 class="movie-card-name">파이큐티의 사랑</h3>
+                <div class="movie-card-info">
+                  <span class="info-label"><b>개요</b> 로맨스</span>
+                  <span class="info-label"
+                    ><b>평점</b> <img src="./src/icon/Star 1.svg" /> 8.81</span
+                  >
+                  <br />
+                  <span class="info-label"><b>개봉</b> 2021.04.08</span>
+                  <br />
+                  <span class="info-label"><b>출연</b> 파이썬, 큐티</span>
+                </div>
+              </div>
+              <div class="movie-card-footer">
+                <button>예매하기</button>
+                <button><img src="./src/icon/play-circle.svg" />예고편</button>
+              </div>
+            </li>
+            <li class="movie-card-item">
+              <div class="movie-card-item-content">
+                <figure>
+                  <img src="./src/img/포스터 이미지 5.jpeg" />
+                </figure>
+                <h3 class="movie-card-name">NGINX의 춤</h3>
+                <div class="movie-card-info">
+                  <span class="info-label"><b>개요</b> 드라마</span>
+                  <span class="info-label"
+                    ><b>평점</b> <img src="./src/icon/Star 1.svg" /> 9.88</span
+                  >
+                  <br />
+                  <span class="info-label"><b>개봉</b> 2021.04.15</span>
+                  <br />
+                  <span class="info-label"><b>출연</b> NGINX, 노션</span>
+                </div>
+              </div>
+              <div class="movie-card-footer">
+                <button>예매하기</button>
+                <button><img src="./src/icon/play-circle.svg" />예고편</button>
+              </div>
+            </li>
+            <li class="movie-card-item">
+              <div class="movie-card-item-content">
+                <figure>
+                  <img src="./src/img/포스터 이미지 6.jpeg" />
+                </figure>
+                <h3 class="movie-card-name">어쩌다 밋업</h3>
+                <div class="movie-card-info">
+                  <span class="info-label"><b>개요</b> 드라마</span>
+                  <span class="info-label"
+                    ><b>평점</b> <img src="./src/icon/Star 1.svg" /> 9.25</span
+                  >
+                  <br />
+                  <span class="info-label"><b>개봉</b> 2021.04.17</span>
+                  <br />
+                  <span class="info-label"
+                    ><b>출연</b> 라이캣, 자바독, 소울곰</span
+                  >
+                </div>
+              </div>
+              <div class="movie-card-footer">
+                <button>예매하기</button>
+                <button><img src="./src/icon/play-circle.svg" />예고편</button>
+              </div>
+            </li>
+            <li class="movie-card-item">
+              <div class="movie-card-item-content">
+                <figure>
+                  <img src="./src/img/포스터 이미지 7.jpeg" />
+                </figure>
+                <h3 class="movie-card-name">파이게임 어드벤처</h3>
+                <div class="movie-card-info">
+                  <span class="info-label"><b>개요</b> 판타지액션</span>
+                  <span class="info-label"
+                    ><b>평점</b> <img src="./src/icon/Star 1.svg" /> 8.56</span
+                  >
+                  <br />
+                  <span class="info-label"><b>개봉</b> 2021.04.05</span>
+                  <br />
+                  <span class="info-label"><b>출연</b> 개리씨, 파이썬</span>
+                </div>
+              </div>
+              <div class="movie-card-footer">
+                <button>예매하기</button>
+                <button><img src="./src/icon/play-circle.svg" />예고편</button>
+              </div>
+            </li>
+            <li class="movie-card-item">
+              <div class="movie-card-item-content">
+                <figure>
+                  <img src="./src/img/포스터 이미지8.jpeg" />
+                </figure>
+                <h3 class="movie-card-name">MBIT는 내 운명</h3>
+                <div class="movie-card-info">
+                  <span class="info-label"><b>개요</b> 로맨스</span>
+                  <span class="info-label"
+                    ><b>평점</b> <img src="./src/icon/Star 1.svg" /> 9.02</span
+                  >
+                  <br />
+                  <span class="info-label"><b>개봉</b> 2021.04.12</span>
+                  <br />
+                  <span class="info-label"
+                    ><b>출연</b> 라이캣, 개리씨, 자바독</span
+                  >
+                </div>
+              </div>
+              <div class="movie-card-footer">
+                <button>예매하기</button>
+                <button><img src="./src/icon/play-circle.svg" />예고편</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
-    <footer></footer>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-content-top">
+          <h2 class="company-name">Jungle Cinema</h2>
+          <ul class="footer-sns-area">
+            <li class="sns-icon-item">
+              <img src="./src/icon/twitter.svg" />
+            </li>
+            <li class="sns-icon-item">
+              <img src="./src/icon/instagram.svg" />
+            </li>
+            <li class="sns-icon-item"><img src="./src/icon/facebook.svg" /></li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-content-bottom">
+          <span class="company-name-sub"
+            ><b>(주) 정글 시네마</b> | <b>대표</b> 라이언 |
+            <b>사업자 번호</b> 000-0000-0000 | 광고 영화 및 비디오물 제작업 |
+            <b>주소</b> 서울특별시</span
+          >
+          <span><b>ⓒ The Jungle</b></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
