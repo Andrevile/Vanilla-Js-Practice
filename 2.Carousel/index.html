@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" defer src="./src/js/index.js"></script>
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header></header>
+    <section>
+      <form class="image-upload">
+        <input type="file" accept="image/*" id="image-upload-input" />
+        <label for="image-upload-input">이미지 업로드</label>
+      </form>
+      <div class="carousel-wrapper">
+        <ul class="carousel-list">
+          <li class="carousel-item">
+            <img src="./src/image/이미지_1.png" />
+          </li>
+          <li class="carousel-item">
+            <img src="./src/image/이미지_1.png" />
+          </li>
+          <li class="carousel-item">
+            <img src="./src/image/이미지_1.png" />
+          </li>
+        </ul>
+      </div>
+      <button class="prev">&lt; Prev</button>
+      <button class="next">Next &gt;</button>
+    </section>
+  </body>
 </html>
