@@ -91,3 +91,7 @@ button {
   top: 390px;
   right: 149px;
 }
+
+.now > img {
+  filter: brightness(100%);
+}
