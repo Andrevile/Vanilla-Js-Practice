@@ -1,3 +1,12 @@
+.util-ir {
+  display: block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+  line-height: 0;
+  text-indent: -9999px;
+}
 .image-upload {
   margin: 77px 149px 58px;
 }
@@ -90,6 +99,12 @@ button {
 .next {
   top: 390px;
   right: 149px;
+}
+
+.prev:hover,
+.next:hover {
+  background: #828282;
+  color: #fff;
 }
 
 .now > img {

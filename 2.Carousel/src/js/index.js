@@ -91,6 +91,7 @@
       reader.onload = (e) => {
         const imgUrl = e.target.result;
         carouselUl.insertBefore(createTag(imgUrl), items[0]);
+
         changeTransform();
       };
       reader.readAsDataURL(value.files[0]);
